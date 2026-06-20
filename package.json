@@ -1,0 +1,14 @@
+{
+  "name": "gitlab-duo-openai-relay",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local OpenAI-compatible relay for GitLab Duo GraphQL.",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
