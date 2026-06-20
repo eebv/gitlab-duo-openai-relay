@@ -1,0 +1,20 @@
+node_modules/
+.env
+logs/
+*.log
+.tmp/
+
+# Local captures / private runtime artifacts
+*.har
+*-2026-*.json
+*.network-request
+*.network-response
+*.heapsnapshot
+*.rar
+*.zip
+*.7z
+
+# Local project memory / handoff notes, not release docs
+PROJECT_CONTEXT.md
+HANDOFF.md
+OPERATION_LOG.md
